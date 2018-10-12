@@ -1,5 +1,7 @@
 # Linux Distribution
 
+Please note that installing this sdk might conflict with other webcams and wakup after sleep. Specifically, after pluging a realsense camera, the onboard laptop webcam is not detected anymore, and the computer will not be able to wakeup from sleep. As a workaround, a restart fixes those problems.
+
 #### Using pre-build packages
 **Intel® RealSense™ SDK 2.0** provides installation packages in [`dpkg`](https://en.wikipedia.org/wiki/Dpkg) format for Ubuntu 16/18 LTS.    
 The Realsense [DKMS](https://en.wikipedia.org/wiki/Dynamic_Kernel_Module_Support) kernel drivers package (`librealsense2-dkms`) supports Ubuntu LTS kernels 4.4, 4.10, 4.13 and 4.15.  
